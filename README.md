@@ -1,5 +1,7 @@
 # Project Memory
 
+[English](./README.md) | [中文](./README.zh-CN.md)
+
 A skill for setting up a semi-persistent agent engineering memory system. Uses minimal documentation to avoid context window bloat across long sessions while preserving project progress, decisions, and task state.
 
 ## Install
