@@ -4,4 +4,8 @@ A skill for managing semi-persistent agent engineering memory across sessions. U
 
 ## Behaviors
 
-- **Setup**: One-time per project. Bootstrap the document system (AGENTS.md, PROJECT_STATE.md, DECISIONS.md, RUNBOOK.md, archive/). Invoked via `/setup-project-memory`. Session bootstrap and context freeze prompts are written into PROJECT_STATE.md for manual copy-paste use — they are not separate skill behaviors.
+Three manually-triggered skills:
+
+- **Setup** (`/setup-project-memory`): One-time per project. Bootstrap the document system.
+- **Resume** (`/resume-project`): Each new session. Read AGENTS.md + PROJECT_STATE.md and resume the highest-priority unblocked task.
+- **Freeze** (`/context-freeze`): On demand. Externalize chat state into the document system without modifying business code.

@@ -1,6 +1,8 @@
 {
   "name": "project-memory",
   "skills": [
-    "./skills/productivity/setup-project-memory"
+    "./skills/productivity/setup-project-memory",
+    "./skills/productivity/resume-project",
+    "./skills/productivity/context-freeze"
   ]
 }
