@@ -46,6 +46,8 @@ Reads AGENTS.md + PROJECT_STATE.md and resumes the highest-priority unblocked ta
 
 Externalizes chat state to the document system without modifying business code.
 
+It is recommened to freeze context once the context reaches around 160k
+
 ## License
 
 MIT
